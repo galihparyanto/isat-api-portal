@@ -1,0 +1,68 @@
+﻿
+
+.page-home {
+    background: #FFF;
+}
+
+.cover-list .cover-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.cover-list .cover-item img {
+    display: block;
+    width: 100%;
+}
+
+.cover-list .cover-item h3 {
+    display: block;
+    width: 70%;
+    padding: 0 35px;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    font-size: 41px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+    .cover-list .cover-item h3 span {
+        display: block;
+        font-size: 30px;
+    }
+
+
+
+@media (max-width: 667px) {
+
+    .cover-list {
+        padding: 0 10px;
+    }
+
+        .cover-list .cover-item {
+            margin-bottom: 10px;
+            padding: 0 5px;
+        }
+
+    .cover-list .cover-item h3 {
+        font-size: 30px;
+        padding: 0 15px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .cover-list .cover-item h3 {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .cover-list .cover-item h3 {
+        font-size: 10px;
+    }
+
+}

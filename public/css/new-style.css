@@ -1,0 +1,76 @@
+﻿/* =====>> BASED RULES <<=====*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'ooredoo-regular';
+} 
+/*body {background: url(../Images/pattern-bg.jpg) repeat; background-size: contain;}*/
+body {
+    background-color:white !important;
+}
+.body-render {background: #fff; width: 1280px; margin: auto;}
+hr {border-bottom: 2px #b7b7b7 solid !important;}
+
+/* =====>> HEADER <<=====*/
+.header {position: relative;}
+.navbar-nav {margin: 0; float: left}
+.main-navigation .navbar-nav > li > a span {font-family: ooredoo-bold;}
+
+/* =====>> FOOTER <<=====*/
+footer .navbar-nav {float: left;}
+.footer-top .close-footer:after {background: url(../images/close-footer.png) center center no-repeat;}
+.icon-footer-1 {background:url(../Images/icon-footer-1.png) center center no-repeat;}
+.icon-footer-2 {background:url(../Images/icon-footer-2.png) center center no-repeat;}
+.icon-footer-3 {background:url(../Images/icon-footer-3.png) center center no-repeat;}
+.icon-footer-4 {background:url(../Images/icon-footer-4.png) center center no-repeat;}
+footer .footer-socmed a img {width: 40px;}
+
+
+/* =====>> BODY CONTENT STYLE <<=====*/
+.body-render { background: url(../Images/bg-pattern.gif) repeat; }
+
+/* =====>> SITE STYLE <<=====*/
+.wrapper-map .page-gallery {padding: 20px 40px; margin-bottom: 0;}
+#map-canvas { width: 100%;padding-bottom: 60%; }
+.map-search select { font-family: inherit;font-size: 13px;color: #000;border: 1px #959595 solid;width: 100%;padding: 4px 10px;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+.map-search input[type="text"] {font-family: inherit;font-size: 13px;color: #000;border: 1px #959595 solid;width: 100%;padding: 4px 10px;max-width: none;line-height: 20px;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+.map-search input[type="submit"] { font-family: inherit;font-size: 13px;color: #fde500;border: 1px #414042 solid;padding: 4px 10px;max-width: none;
+    line-height: 20px;background: #414042;width: 85px;box-sizing: border-box;max-width: 100%; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+h1 {font-family: 'ooredoo-bold'; color: #333; font-size: 35px;font-weight: normal;padding: 0;margin: 0;margin-top: 15px; }
+h1 img { margin-right: 15px; }
+.pac-container:after{content:none !important;}
+
+/* =====>> Override bootstrap <<=====*/
+.popover {position: absolute; top: 0; left: 0; z-index: 1010; display: none; max-width: 376px; padding: 1px; text-align: left; white-space: normal; background-color: #fff; border: 1px solid #ccc;
+border: 1px solid rgba(0,0,0,.2); border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2); box-shadow: 0 5px 10px rgba(0,0,0,.2); background-clip: padding-box;}
+.popover.top {margin-top: -10px;}
+.popover.right {margin-left: 10px;}
+.popover.bottom {margin-top: 10px;}
+.popover.left {margin-left: -10px;}
+.popover-title {padding: 8px 14px; margin: 0; font-size: 14px; font-weight: normal; line-height: 18px; background-color: #f7f7f7; border-bottom: 1px solid #ebebeb; border-radius: 5px 5px 0 0;}
+.popover-content {padding: 9px 14px; max-width:350px;}
+.map-search {margin: 20px -15px;}
+.page-gallery .row img {max-width:initial!important;}
+.page-gallery .row.cover-map img {max-width:initial!important; width: 100%;}
+div.map-search .btn-red, .btn-red:hover {text-decoration: none; background: #ea222d; color: #fff; border-radius: 5px; border: none;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {padding-left:8px; padding-right:8px;}
+.modal-title {color:#000;}
+.modal-body {color:#000;}
+.modal-body ul {padding-left:20px;}
+.modal-body ul li {}
+.modal-body ul li a {color:#00afe9;}
+.modal-body h4 {color:#323232; font-size:25px; font-family:'ooredoo-Bold';}
+.modal-title {color:#323232; font-size:26px; line-height:normal;}
+.modal-title span {color:#ed1c24; font-size:18px;}
+.modal-title strong {font-family:'FuturaStd-Heavy';}
+.modal-header .close {opacity:1; color:#ed1c24; margin-top:-10px; font-size:30px;}
+.modal .btn {padding-left:30px; padding-right:30px;}
+
+/* GALLERY PAGE */
+.map-search {margin: 0;}
