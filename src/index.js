@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './component/App';
 import Home from './component/Home';
+import Documentation from './component/Documentation/Documentation';
 import Products from './component/Products';
 import UseCases from './component/UseCases';
 import SMS from './component/SMS';
@@ -31,7 +32,7 @@ ReactDOM.render((
                 <IndexRoute component={Home}/>
                 <Route path="/terms" component={Terms}/>
                 <Route path="/contact-us" component={ContactUs}/>
-                {/*<Route path="documentation" component={Documentation}/>*/}
+                <Route path="/documentation" component={Documentation}/>
                 <Route path="/products" component={Products}/>
                 <Route path="/products/sms" component={SMS}/>
                 <Route path="/products/ussd" component={USSD}/>
