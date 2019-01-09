@@ -11,7 +11,10 @@ import img_flow from './img/img_logic.png';
 class Documentation extends Component {
     constructor(props) {
         super(props);
-        this.state = {reload : false};
+        this.state = {
+            reload : false,
+            toggle: false,
+        };
     }
 
     componentWillReceiveProps(nextProps) {
@@ -24,9 +27,17 @@ class Documentation extends Component {
         // }
     }
 
+    handleToggle = () => {
+        this.setState({
+            toggle: !this.state.toggle
+        })
+    }
+
     render() {
+        const { toggle } = this.state
+        const toggleClass = toggle ? 'show' : 'hide'
         return (
-            <div class="containerFlex">
+            <div className="containerFlex">
 
                 
 
@@ -34,32 +45,44 @@ class Documentation extends Component {
                     <div className="sideBar__title">Digital Reward API</div>
                     <ul className="listnav">
                         <li className="listnav__list">
-                            <div><i className="icon icon_browser" /><div className="listnav__list--text">API Overview</div></div>
-                            <ul>
-                                <Link 
-                                    to="token"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration= {500}>
-                                    <li><i className="icon icon_folder" /><div className="listnav__list--text">Generate Access Token</div></li>
-                                </Link>
-                                <Link
-                                    to="flow"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration= {500}>
-                                <li><i className="icon icon_folder" /><div className="listnav__list--text">Logical Flow</div></li>
-                                </Link>
-                                <Link
-                                    to="endpoint"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration= {500}>
-                                <li><i className="icon icon_folder" /><div className="listnav__list--text">Request Endpoint</div></li>
-                                </Link>
+                            <div className="hoverClass" onClick={this.handleToggle}>
+                                <i className="icon icon_browser" />
+                                <div className="listnav__list--text" onClick={this.handleToggle}>API Overview</div>
+                            </div>
+                            <ul className={toggleClass}>
+                                <li>
+                                    <Link 
+                                        to="token"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration= {500}>
+                                        <i className="icon icon_folder" />
+                                        <div className="listnav__list--text">Generate Access Token</div>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        to="flow"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration= {500}>
+                                        <i className="icon icon_folder" />
+                                        <div className="listnav__list--text">Logical Flow</div>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        to="endpoint"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration= {500}>
+                                        <i className="icon icon_folder" />
+                                        <div className="listnav__list--text">Request Endpoint</div>
+                                    </Link>
+                                </li>
                             </ul>
 
                         </li>
@@ -68,7 +91,7 @@ class Documentation extends Component {
 
                 <div className="content">
                     <div className="content__title">
-                        API Overview
+                        Digital Reward API 
                     </div>
                     <div className="content__main">
 
@@ -85,7 +108,6 @@ class Documentation extends Component {
                                 Generate Access Token is implemented as single synchronous flow as below.
                                 <img src={img_flow} />
                             </div>
-
                         </div>
 
                         <div className="mt-20" id="endpoint">
@@ -95,14 +117,18 @@ class Documentation extends Component {
                             </div>
                             <div className="content__table">
                                 <table>
-                                    <tr>
-                                        <th>Method</th>
-                                        <th>URL</th>
-                                    </tr>
-                                    <tr>
-                                        <td>GET</td>
-                                        <td>http://[IP:port]/oauth2-client/accesstoken</td>
-                                    </tr>
+                                    <thead>
+                                        <tr>
+                                            <th>Method</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>GET</td>
+                                            <td>http://[IP:port]/oauth2-client/accesstoken</td>
+                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
 
@@ -112,24 +138,28 @@ class Documentation extends Component {
                             </div>
                             <div className="content__table">
                                 <table>
-                                    <tr>
-                                        <th>Type</th>
-                                        <th>Parameter</th>
-                                        <th>Values</th>
-                                        <th>Description</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Header</td>
-                                        <td>Authorization</td>
-                                        <td>String</td>
-                                        <td>Fill with Base 64 encoding of Client Key:Client Secret.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Body</td>
-                                        <td>grant_type</td>
-                                        <td>String</td>
-                                        <td>Fill with “client_credentials”</td>
-                                    </tr>
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>Parameter</th>
+                                            <th>Values</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Header</td>
+                                            <td>Authorization</td>
+                                            <td>String</td>
+                                            <td>Fill with Base 64 encoding of Client Key:Client Secret.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Body</td>
+                                            <td>grant_type</td>
+                                            <td>String</td>
+                                            <td>Fill with “client_credentials”</td>
+                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                         </div>
