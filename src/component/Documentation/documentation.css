@@ -16,6 +16,7 @@
 }
 
 .containerFlex {
+    position: relative;
     display:flex;
     flex-wrap:wrap;
     flex-direction:row;
@@ -34,6 +35,12 @@
     background: #FAFAFA;
     flex-basis: 428px;
     order: 1;
+    overflow: auto;
+    position: fixed;
+    d: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
 }
 
 .sideBar__title {
@@ -74,6 +81,8 @@
     flex-basis: 58%;
     order: 2;
     padding: 20px;
+    position: relative;
+    left: 35%;
 }
 
 .content__title {
@@ -117,6 +126,9 @@
 
 
 /*=========*/
+.footer {
+    position: relative;
+}
 /*SHORTHANDS*/
 
 .ml-10 {
