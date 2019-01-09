@@ -55,7 +55,6 @@ class Documentation extends Component {
                                         to="token"
                                         spy={true}
                                         smooth={true}
-                                        offset={-70}
                                         duration= {500}>
                                         <i className="icon icon_folder" />
                                         <div className="listnav__list--text">Generate Access Token</div>
@@ -66,7 +65,6 @@ class Documentation extends Component {
                                         to="flow"
                                         spy={true}
                                         smooth={true}
-                                        offset={-70}
                                         duration= {500}>
                                         <i className="icon icon_folder" />
                                         <div className="listnav__list--text">Logical Flow</div>
@@ -74,11 +72,22 @@ class Documentation extends Component {
                                 </li>
                                 <li>
                                     <Link
-                                        to="endpoint"
+                                        to="request_endpoint"
                                         spy={true}
                                         smooth={true}
-                                        offset={-70}
-                                        duration= {500}>
+                                        duration= {500}
+                                        activeClass={'active'}>
+                                        <i className="icon icon_folder" />
+                                        <div className="listnav__list--text">Request Endpoint</div>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        to="test"
+                                        spy={true}
+                                        smooth={true}
+                                        duration= {500}
+                                        activeClass={'active'}>
                                         <i className="icon icon_folder" />
                                         <div className="listnav__list--text">Request Endpoint</div>
                                     </Link>
@@ -110,7 +119,7 @@ class Documentation extends Component {
                             </div>
                         </div>
 
-                        <div className="mt-20" id="endpoint">
+                        <div className="mt-20" id="request_endpoint">
                             <div className="content__subtitle">Request Endpoint</div>
                             <div className="content__text">
                                 Here are the endpoint for every client request's.
@@ -163,6 +172,66 @@ class Documentation extends Component {
                                 </table>
                             </div>
                         </div>
+
+
+
+                        <div className="mt-20" id="test">
+                            <div className="content__subtitle">Request Endpoint</div>
+                            <div className="content__text">
+                                Here are the endpoint for every client request's.
+                            </div>
+                            <div className="content__table">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Method</th>
+                                            <th>URL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>GET</td>
+                                            <td>http://[IP:port]/oauth2-client/accesstoken</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div className="bold">Request Parameter</div>
+                            <div className="content__text">
+                                Here are the parameters for every client request's.
+                            </div>
+                            <div className="content__table">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>Parameter</th>
+                                            <th>Values</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Header</td>
+                                            <td>Authorization</td>
+                                            <td>String</td>
+                                            <td>Fill with Base 64 encoding of Client Key:Client Secret.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Body</td>
+                                            <td>grant_type</td>
+                                            <td>String</td>
+                                            <td>Fill with “client_credentials”</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+
+
                     </div>
                 </div>
 

@@ -47,7 +47,7 @@ ReactDOM.render((
                 <Route path="/use-cases/ussd-authentication" component={USSDAuthentication}/>
                 <Route path="/use-cases/gift-data" component={GiftData}/>
                 <Route path="/use-cases/vas-product-subscription" component={VASProductSubscription}/>
-                <Route path="*" component={NoMatch}/>
+                {/* <Route path="*" component={NoMatch} /> */}
             </Route>
         </ScrollToTop>
     </Router>
