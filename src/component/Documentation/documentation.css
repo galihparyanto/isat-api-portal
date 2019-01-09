@@ -1,0 +1,181 @@
+
+a {
+    cursor: pointer;
+}
+
+.hoverClass {
+    cursor: pointer;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon_browser {
+    width: 30px;
+    height: 30px;
+    background: url('./img/icon_browser.svg') no-repeat center;
+}
+
+.icon_folder {
+    width: 20px;
+    height: 26px;
+    background: url('./img/icon_folder.svg') no-repeat center;
+}
+
+.containerFlex {
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:stretch;
+}
+
+/* SIDEBAR */
+
+
+.sideBar {
+    width: 30%;
+    max-width: 428px;
+    padding: 25px 14px;
+    border-right: 2px solid #C1211E;
+    background: #FAFAFA;
+    flex-basis: 428px;
+    order: 1;
+    overflow: auto;
+    position: fixed;
+    top: 10%;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+}
+
+.sideBar__title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D1D1D1;
+    font-weight: 800;
+}
+
+.listnav {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.listnav__list {
+    width: 100%;
+}
+
+.listnav__list ul {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.listnav__list ul.hide {
+    transform: translateY(-14%);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.listnav__list ul.show {
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.listnav__list ul li {
+    list-style: none;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.listnav__list ul.show li a.active .listnav__list--text {
+    color: #C1211E;
+}
+
+.listnav__list--text {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*==========*/
+
+/*CONTENT*/
+
+.content {
+    flex-basis: 58%;
+    order: 2;
+    padding: 20px;
+    position: relative;
+    left: 30%;
+}
+
+.content__title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content__main {
+    margin: 40px 0;
+}
+
+.content__subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content__text {
+    line-height: 23px;
+    font-size: 14px;
+    font-family: "Noto Sans";
+}
+
+.content__table {
+    margin: 10px 0;
+}
+
+.content__table table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.content__table table th {
+    background: #FCCC00;
+}
+
+.content__table table th,
+.content__table table td {
+    border: 1px solid #979797;
+}
+
+
+/*=========*/
+.footer {
+    position: relative;
+}
+/*SHORTHANDS*/
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inline-block {
+    display: inline-block;
+}

@@ -170,7 +170,8 @@ class MenuBar extends Component {
                                 </ul>
                             </li>
                             <li className="dropdown mega-dropdown">
-                                <a className="nav-link" data-toggle="dropdown" href="#">Documentation</a>
+                                {/* <a className="nav-link" data-toggle="dropdown" href="/documentation">Documentation</a> */}
+                                <Link className="nav-link" to="/documentation">Documentation</Link>
                             </li>
                         </ul>
                     </div>
