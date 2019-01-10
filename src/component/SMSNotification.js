@@ -155,14 +155,6 @@ class SMSNotification extends Component {
                                     <span>E-Commerce</span>
                                 </div>
                             </div>
-                            <div className="row industries-item d-flex justify-content-center">
-                                <div className="col-md-2 no-padding">
-                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hotel.png"}/>
-                                </div>
-                                <div className="col-md-6 d-flex align-items-center">
-                                    <span>Hotel & Travel</span>
-                                </div>
-                            </div>
                         </div>
                         <div className="col-md-4">
                             <div className="row industries-item d-flex justify-content-center">
@@ -175,20 +167,28 @@ class SMSNotification extends Component {
                             </div>
                             <div className="row industries-item d-flex justify-content-center">
                                 <div className="col-md-2 no-padding">
-                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hospital.png"}/>
+                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hotel.png"}/>
                                 </div>
                                 <div className="col-md-6 d-flex align-items-center">
-                                    <span>Hospital</span>
+                                    <span>Hotel & Travel</span>
                                 </div>
                             </div>
-                            <div className="row industries-item d-flex justify-content-center">
-                                <div className="col-md-2 no-padding">
-                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/advertising.png"}/>
-                                </div>
-                                <div className="col-md-6 d-flex align-items-center">
-                                    <span>Education</span>
-                                </div>
-                            </div>
+                            {/*<div className="row industries-item d-flex justify-content-center">*/}
+                                {/*<div className="col-md-2 no-padding">*/}
+                                    {/*<img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hospital.png"}/>*/}
+                                {/*</div>*/}
+                                {/*<div className="col-md-6 d-flex align-items-center">*/}
+                                    {/*<span>Hospital</span>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+                            {/*<div className="row industries-item d-flex justify-content-center">*/}
+                                {/*<div className="col-md-2 no-padding">*/}
+                                    {/*<img className="img-fluid" src={process.env.PUBLIC_URL + "/img/advertising.png"}/>*/}
+                                {/*</div>*/}
+                                {/*<div className="col-md-6 d-flex align-items-center">*/}
+                                    {/*<span>Education</span>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>
