@@ -89,7 +89,7 @@ a {
     font-size: 14px;
 }
 
-.listnav__list ul.show li a.active .listnav__list--text {
+.listnav__list li a.active .listnav__list--text {
     color: #C1211E;
 }
 
@@ -162,6 +162,10 @@ a {
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.mb-15r {
+    margin-bottom: 15rem;
 }
 
 .table {

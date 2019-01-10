@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap';
-import MenuBar from './MenuBar';
-import Footer from './Footer';
+import MenuBar from '../global/MenuBar';
+import Footer from '../global/Footer';
 
 class App extends Component {
   constructor(props) {

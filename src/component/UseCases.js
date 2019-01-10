@@ -5,22 +5,22 @@ import React, { Component } from 'react';
 import 'bootstrap';
 import {Link} from 'react-router';
 import ScrollToTopOnMount from '../lib/ScrollToTopOnMount';
+import ProductBanner from '../global/ProductBanner';
+
 
 class UseCases extends Component {
     componentDidMount() {
     }
 
     render() {
+        let props = {
+            imgSrc: process.env.PUBLIC_URL + "/img/banner-use-cases.png",
+            from: 'usecase',
+        }
         return (
             <div className="UseCases">
                 <ScrollToTopOnMount/>
-                <div className="product-banner">
-                    <img className="products-img" src={process.env.PUBLIC_URL + "/img/banner-use-cases.png"} alt="Use Case List"/>
-                    <div className="use-case-banner-container">
-                        {/*<p className="use-case-banner-text-1">Use Case</p>*/}
-                        {/*<p className="use-case-banner-text-2">The passage experienced a surge in popularity during the 1960s</p>*/}
-                    </div>
-                </div>
+                <ProductBanner {...props} />
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <span className="navigation-detail">Use Case</span></p>

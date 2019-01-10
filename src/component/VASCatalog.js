@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import 'bootstrap';
 import {Link} from 'react-router';
+import ProductBanner from '../global/ProductBanner';
 import ScrollToTopOnMount from '../lib/ScrollToTopOnMount';
 
 class VASCatalog extends Component {
@@ -11,20 +12,14 @@ class VASCatalog extends Component {
     }
 
     render() {
+        let props = {
+            imgSrc: process.env.PUBLIC_URL +"/img/produk-sms-push.png",
+            from: 'product',
+        }
         return (
             <div className="VAS">
                 <ScrollToTopOnMount/>
-                <div className="product-banner">
-                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/produk-sms-push.png"} alt="Product Detail"/>
-                    <div className="product-banner-container">
-                        <p className="product-banner-text-1">Better Experience For Your Customer</p>
-                        <p className="product-banner-text-2">Rapid Idea Execution For Your Business</p>
-                        <div className="product-banner-button">
-                            <button className="btn d-flex justify-content-center banner-button" type="button">Try It</button>
-                            <button className="btn banner-button" type="button">Contact Us</button>
-                        </div>
-                    </div>
-                </div>
+                <ProductBanner {...props} />
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <Link className="navigation-link" to="/products">Products</Link> \ <span className="navigation-detail">VAS Catalog</span></p>
