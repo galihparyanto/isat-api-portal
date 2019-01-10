@@ -152,14 +152,14 @@ class VASCatalog extends Component {
                             <div className="tab-pane fade show active" id="sms-notification" role="tabpanel" aria-labelledby="sms-notification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/VAS.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
                                             <p className="product-use-case-text">VAS API catalog provide catalog of Indosat VAS product including its subscription management</p>
                                         </div>
                                         <div className="row">
-                                            <Link to="/use-cases/gift-data"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
+                                            <Link to="/use-cases/vas-product-subscription"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
                                             <Link><button type="button" className="btn product-use-case-button">Documentation</button></Link>
                                         </div>
                                     </div>

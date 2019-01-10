@@ -184,7 +184,7 @@ class SMS extends Component {
                             <div className="tab-pane fade show active" id="sms-notification" role="tabpanel" aria-labelledby="sms-notification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS Notifications - Large.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
@@ -200,7 +200,7 @@ class SMS extends Component {
                             <div className="tab-pane fade" id="mobile-number-verification" role="tabpanel" aria-labelledby="mobile-number-verification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/Mobile Number Verifications - Large.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
