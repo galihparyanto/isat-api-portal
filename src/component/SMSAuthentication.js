@@ -21,7 +21,7 @@ class SMSAuthentication extends Component {
                 <div className="container use-case-detail">
                     <div className="row">
                         <div className="col-md-3 order-md-1 no-padding d-flex align-items-center">
-                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/Mobile Number Verifications - Large.png"}/>
                         </div>
                         <div className="col-md-9 order-md-2 product-detail-text">
                             <p className="text-header">SMS Push Authentication</p>
