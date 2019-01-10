@@ -3,6 +3,8 @@
  */
 import React, { Component } from 'react';
 import 'bootstrap';
+import Slogan from '../global/Slogan';
+import ProductBanner from '../global/ProductBanner';
 import {Link} from 'react-router';
 import ScrollToTopOnMount from '../lib/ScrollToTopOnMount';
 
@@ -11,22 +13,17 @@ class Products extends Component {
     }
 
     render() {
+        let props = {
+            imgSrc: process.env.PUBLIC_URL + "/img/produk-sms-push.png",
+            from: 'product',
+        }
         return (
             <div className="Products">
                 <ScrollToTopOnMount/>
-                <div className="product-banner">
-                    <img className="products-img" src={process.env.PUBLIC_URL + "/img/product-list.png"} alt="Product List"/>
-                    <div className="product-banner-container">
-                        <p className="product-banner-text-1">Better Experience For Your Customer</p>
-                        <p className="product-banner-text-2">Rapid Idea Execution For Your Business</p>
-                        <div className="product-banner-button">
-                            <button className="btn d-flex justify-content-center banner-button" type="button">Try It</button>
-                            <button className="btn banner-button" type="button">Contact Us</button>
-                        </div>
-                    </div>
-                </div>
+                <ProductBanner {...props}/>
+                <Slogan />
 
-                <div className="slogan-row row">
+                {/* <div className="slogan-row row">
                     <div className="col-md-4 text-center">
                         <span className="slogan-text">All in One</span>
                     </div>
@@ -36,7 +33,7 @@ class Products extends Component {
                     <div className="col-md-4 text-center">
                         <span className="slogan-text">Straightforward</span>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <span className="navigation-detail">Products</span></p>

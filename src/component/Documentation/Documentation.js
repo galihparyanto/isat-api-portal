@@ -38,9 +38,6 @@ class Documentation extends Component {
         const toggleClass = toggle ? 'show' : 'hide'
         return (
             <div className="containerFlex">
-
-                
-
                 <div className="sideBar">
                     <div className="sideBar__title">Digital Reward API</div>
                     <ul className="listnav">
@@ -55,7 +52,7 @@ class Documentation extends Component {
                                         to="token"
                                         spy={true}
                                         smooth={true}
-                                        offset={-70}
+                                        offset={-90}
                                         duration= {500}>
                                         <i className="icon icon_folder" />
                                         <div className="listnav__list--text">Generate Access Token</div>
@@ -66,7 +63,7 @@ class Documentation extends Component {
                                         to="flow"
                                         spy={true}
                                         smooth={true}
-                                        offset={-70}
+                                        offset={-90}
                                         duration= {500}>
                                         <i className="icon icon_folder" />
                                         <div className="listnav__list--text">Logical Flow</div>
@@ -77,7 +74,7 @@ class Documentation extends Component {
                                         to="endpoint"
                                         spy={true}
                                         smooth={true}
-                                        offset={-70}
+                                        offset={-90}
                                         duration= {500}>
                                         <i className="icon icon_folder" />
                                         <div className="listnav__list--text">Request Endpoint</div>
@@ -110,7 +107,7 @@ class Documentation extends Component {
                             </div>
                         </div>
 
-                        <div className="mt-20" id="endpoint">
+                        <div className="mt-20 mb-15r" id="endpoint">
                             <div className="content__subtitle">Request Endpoint</div>
                             <div className="content__text">
                                 Here are the endpoint for every client request's.
