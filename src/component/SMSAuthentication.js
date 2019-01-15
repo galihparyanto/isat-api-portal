@@ -47,7 +47,7 @@ class SMSAuthentication extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Secure a digital transaction (digital service login, payment, etc.) by delivering a one-time, unique 6-digit code (OTP) via SMS push notification</span>
+                                        <span>Secure a digital transaction (digital service login, payment, etc.) by delivering a one-time, unique 6-digit code (OTP) via SMS push notification.</span>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ class SMSAuthentication extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Use a second channel (out-of-band authentication) to further secure access to a sensitive IT system</span>
+                                        <span>Use a second channel (out-of-band authentication) to further secure access to a sensitive IT system.</span>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ class SMSAuthentication extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Use a second channel (out-of-band authentication) to authorize a sensitive digital transaction (funds transfer, online purchase, etc.)</span>
+                                        <span>Use a second channel (out-of-band authentication) to authorize a sensitive digital transaction (funds transfer, online purchase, etc.).</span>
                                     </div>
                                 </div>
                             </div>

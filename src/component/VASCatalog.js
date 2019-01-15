@@ -54,7 +54,7 @@ class VASCatalog extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Enhance your marketplace by showing Indosat Ooredoo value added services catalogue and get additional revenue for each subscription</span>
+                                        <span>Enhance your marketplace by showing Indosat Ooredoo value added services catalogue and get additional revenue for each subscription.</span>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ class VASCatalog extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Enhance your user experience by enabling them to manage their Indosat Ooredoo value added service subscription from your app</span>
+                                        <span>Enhance your user experience by enabling them to manage their Indosat Ooredoo value added service subscription from your app.</span>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ class VASCatalog extends Component {
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">VAS API catalog provide catalog of Indosat VAS product including its subscription management</p>
+                                            <p className="product-use-case-text">VAS API catalog provide catalog of Indosat VAS product including its subscription management.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/vas-product-subscription"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>

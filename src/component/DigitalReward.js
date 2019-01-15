@@ -54,7 +54,7 @@ class DigitalReward extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Increase user activation on your service by giving data rewards when user joining your services</span>
+                                        <span>Increase user activation on your service by giving data rewards when user joining your services.</span>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ class DigitalReward extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Increase join-to-trial conversion and reduce user churn by giving digital rewards when user exploring and using your services</span>
+                                        <span>Increase join-to-trial conversion and reduce user churn by giving digital rewards when user exploring and using your services.</span>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ class DigitalReward extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Increase user engagement by giving data rewards when user doing eligible transaction on your services</span>
+                                        <span>Increase user engagement by giving data rewards when user doing eligible transaction on your services.</span>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ class DigitalReward extends Component {
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">Send digital rewards in the form of data quota to your customer as a marketing gimmick to grow your business</p>
+                                            <p className="product-use-case-text">Send digital rewards in the form of data quota to your customer as a marketing gimmick to grow your business.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/gift-data"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>

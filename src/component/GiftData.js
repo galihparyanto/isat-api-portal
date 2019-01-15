@@ -47,7 +47,7 @@ class GiftData extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Give users back data used to install Merchant’s app. Install app using mobile data and get data rewarded back</span>
+                                        <span>Give users back data used to install Merchant’s app. Install app using mobile data and get data rewarded back.</span>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ class GiftData extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Give new/existing users back data used to engage with merchant’s app. Use mobile data for an app and get data used rewarded back</span>
+                                        <span>Give new/existing users back data used to engage with merchant’s app. Use mobile data for an app and get data used rewarded back.</span>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ class GiftData extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Data reward as a general incentive to reward the right action. Earn data rewards for doing actions with merchant app. Increase in key engagement moments</span>
+                                        <span>Data reward as a general incentive to reward the right action. Earn data rewards for doing actions with merchant app. Increase in key engagement moments.</span>
                                     </div>
                                 </div>
                             </div>

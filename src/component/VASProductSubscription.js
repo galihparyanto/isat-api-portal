@@ -40,14 +40,14 @@ class VASProductSubscription extends Component {
                                         <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/arrow.png"} />
                                     </div>
                                     <div className="col-md-6 no-padding">
-                                        <span className="benefit-item-text">Selling Indosat Ooredoo’s VAS product</span>
+                                        <span className="benefit-item-text">Selling Indosat Ooredoo’s VAS product.</span>
                                     </div>
                                 </div>
                                 <div className="row benefit-item">
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>VAS API catalog provide catalog of Indosat Ooredoo VAS product including its subscription management</span>
+                                        <span>VAS API catalog provide catalog of Indosat Ooredoo VAS product including its subscription management.</span>
                                     </div>
                                 </div>
                             </div>

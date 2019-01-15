@@ -42,7 +42,7 @@ class UseCases extends Component {
                                 </div>
                             </div>
                             <div className="row use-case-description-panel">
-                                <span className="use-case-description">SMS Notifications are text messages sent in response to events or transactions</span>
+                                <span className="use-case-description">SMS Notifications are text messages sent in response to events or transactions.</span>
                             </div>
                             <div className="row detail-link-panel">
                                 <Link to="/use-cases/sms-notification"><span className="detail-text-link">Detail >></span></Link>
@@ -58,7 +58,7 @@ class UseCases extends Component {
                                 </div>
                             </div>
                             <div className="row use-case-description-panel">
-                                <span className="use-case-description">Connect each user with their valid mobile number via SMS and use it as a trust anchor for authentication & communication throughout the account lifecycle</span>
+                                <span className="use-case-description">Connect each user with their valid mobile number via SMS and use it as a trust anchor for authentication & communication throughout the account lifecycle.</span>
                             </div>
                             <div className="row detail-link-panel">
                                 <Link to="/use-cases/sms-authentication"><span className="detail-text-link">Detail >></span></Link>
@@ -74,7 +74,7 @@ class UseCases extends Component {
                                 </div>
                             </div>
                             <div className="row use-case-description-panel">
-                                <span className="use-case-description">Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone</span>
+                                <span className="use-case-description">Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone.</span>
                             </div>
                             <div className="row detail-link-panel">
                                 <Link to="/use-cases/ussd-authentication"><span className="detail-text-link">Detail >></span></Link>
@@ -92,7 +92,7 @@ class UseCases extends Component {
                                 </div>
                             </div>
                             <div className="row use-case-description-panel">
-                                <span className="use-case-description">The notification is pushed in real time to the cell phone and “pop up” automatically, without the user having to dial the number</span>
+                                <span className="use-case-description">The notification is pushed in real time to the cell phone and “pop up” automatically, without the user having to dial the number.</span>
                             </div>
                             <div className="row detail-link-panel">
                                 <Link to="/use-cases/ussd-notification"><span className="detail-text-link">Detail >></span></Link>
@@ -108,7 +108,7 @@ class UseCases extends Component {
                                 </div>
                             </div>
                             <div className="row use-case-description-panel">
-                                <span className="use-case-description">Send digital rewards in the form of data quota to your customer as a marketing gimmick to grow your business</span>
+                                <span className="use-case-description">Send digital rewards in the form of data quota to your customer as a marketing gimmick to grow your business.</span>
                             </div>
                             <div className="row detail-link-panel">
                                 <Link to="/use-cases/gift-data"><span className="detail-text-link">Detail >></span></Link>
@@ -124,7 +124,7 @@ class UseCases extends Component {
                                 </div>
                             </div>
                             <div className="row use-case-description-panel">
-                                <span className="use-case-description">VAS API catalog provide catalog of Indosat VAS product including its subscription management</span>
+                                <span className="use-case-description">VAS API catalog provide catalog of Indosat VAS product including its subscription management.</span>
                             </div>
                             <div className="row detail-link-panel">
                                 <Link to="/use-cases/vas-product-subscription"><span className="detail-text-link">Detail >></span></Link>

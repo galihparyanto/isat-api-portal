@@ -55,7 +55,7 @@ class USSD extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone</span>
+                                        <span>Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone.</span>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ class USSD extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Add security layer prior to transaction and ensure your user attention of it by sending pop-up confirmation to their mobile phone</span>
+                                        <span>Add security layer prior to transaction and ensure your user attention of it by sending pop-up confirmation to their mobile phone.</span>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ class USSD extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Never let your user miss important information by sending real-time pop-up message</span>
+                                        <span>Never let your user miss important information by sending real-time pop-up message.</span>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ class USSD extends Component {
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">The notification is pushed in real time to the cell phone and “pop up” automatically, without the user having to dial the number</p>
+                                            <p className="product-use-case-text">The notification is pushed in real time to the cell phone and “pop up” automatically, without the user having to dial the number.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/ussd-notification"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
@@ -208,7 +208,7 @@ class USSD extends Component {
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone</p>
+                                            <p className="product-use-case-text">Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/ussd-authentication"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
