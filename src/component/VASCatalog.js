@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import 'bootstrap';
 import {Link} from 'react-router';
+import ProductBanner from '../global/ProductBanner';
 import ScrollToTopOnMount from '../lib/ScrollToTopOnMount';
 
 class VASCatalog extends Component {
@@ -11,20 +12,14 @@ class VASCatalog extends Component {
     }
 
     render() {
+        let props = {
+            imgSrc: process.env.PUBLIC_URL +"/img/produk-sms-push.png",
+            from: 'product',
+        }
         return (
             <div className="VAS">
                 <ScrollToTopOnMount/>
-                <div className="product-banner">
-                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/produk-sms-push.png"} alt="Product Detail"/>
-                    <div className="product-banner-container">
-                        <p className="product-banner-text-1">Better Experience For Your Customer</p>
-                        <p className="product-banner-text-2">Rapid Idea Execution For Your Business</p>
-                        <div className="product-banner-button">
-                            <button className="btn d-flex justify-content-center banner-button" type="button">Try It</button>
-                            <button className="btn banner-button" type="button">Contact Us</button>
-                        </div>
-                    </div>
-                </div>
+                <ProductBanner {...props} />
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <Link className="navigation-link" to="/products">Products</Link> \ <span className="navigation-detail">VAS Catalog</span></p>
@@ -59,7 +54,7 @@ class VASCatalog extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Enhance your marketplace by showing Indosat Ooredoo value added services catalogue and get additional revenue for each subscription</span>
+                                        <span>Enhance your marketplace by showing Indosat Ooredoo value added services catalogue and get additional revenue for each subscription.</span>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +71,7 @@ class VASCatalog extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Enhance your user experience by enabling them to manage their Indosat Ooredoo value added service subscription from your app</span>
+                                        <span>Enhance your user experience by enabling them to manage their Indosat Ooredoo value added service subscription from your app.</span>
                                     </div>
                                 </div>
                             </div>
@@ -157,14 +152,14 @@ class VASCatalog extends Component {
                             <div className="tab-pane fade show active" id="sms-notification" role="tabpanel" aria-labelledby="sms-notification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/VAS.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">VAS API catalog provide catalog of Indosat VAS product including its subscription management</p>
+                                            <p className="product-use-case-text">VAS API catalog provide catalog of Indosat VAS product including its subscription management.</p>
                                         </div>
                                         <div className="row">
-                                            <Link to="/use-cases/gift-data"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
+                                            <Link to="/use-cases/vas-product-subscription"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
                                             <Link><button type="button" className="btn product-use-case-button">Documentation</button></Link>
                                         </div>
                                     </div>

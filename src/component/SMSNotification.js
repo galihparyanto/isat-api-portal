@@ -21,7 +21,7 @@ class SMSNotification extends Component {
                 <div className="container use-case-detail">
                     <div className="row">
                         <div className="col-md-3 order-md-1 no-padding d-flex align-items-center">
-                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/SMS Notifications - Large.png"}/>
                         </div>
                         <div className="col-md-9 order-md-2 product-detail-text">
                             <p className="text-header">SMS Push Notification</p>
@@ -47,7 +47,7 @@ class SMSNotification extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>User can track all the order without customer support effort and automatically system will send info to customer while the order has been proceed or has been arrived</span>
+                                        <span>User can track all the order without customer support effort and automatically system will send info to customer while the order has been proceed or has been arrived.</span>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ class SMSNotification extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Notify your customers for important information (Arrivals, Check in, Schedule change, Deposit threshold, Renewal/Upgrade info, etc.) by sending real-time text message</span>
+                                        <span>Notify your customers for important information (Arrivals, Check in, Schedule change, Deposit threshold, Renewal/Upgrade info, etc.) by sending real-time text message.</span>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ class SMSNotification extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Gift your customers for special discount or voucher as SMS Push Notification</span>
+                                        <span>Gift your customers for special discount or voucher as SMS Push Notification.</span>
                                     </div>
                                 </div>
                             </div>
@@ -155,14 +155,6 @@ class SMSNotification extends Component {
                                     <span>E-Commerce</span>
                                 </div>
                             </div>
-                            <div className="row industries-item d-flex justify-content-center">
-                                <div className="col-md-2 no-padding">
-                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hotel.png"}/>
-                                </div>
-                                <div className="col-md-6 d-flex align-items-center">
-                                    <span>Hotel & Travel</span>
-                                </div>
-                            </div>
                         </div>
                         <div className="col-md-4">
                             <div className="row industries-item d-flex justify-content-center">
@@ -175,20 +167,28 @@ class SMSNotification extends Component {
                             </div>
                             <div className="row industries-item d-flex justify-content-center">
                                 <div className="col-md-2 no-padding">
-                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hospital.png"}/>
+                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hotel.png"}/>
                                 </div>
                                 <div className="col-md-6 d-flex align-items-center">
-                                    <span>Hospital</span>
+                                    <span>Hotel & Travel</span>
                                 </div>
                             </div>
-                            <div className="row industries-item d-flex justify-content-center">
-                                <div className="col-md-2 no-padding">
-                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/advertising.png"}/>
-                                </div>
-                                <div className="col-md-6 d-flex align-items-center">
-                                    <span>Education</span>
-                                </div>
-                            </div>
+                            {/*<div className="row industries-item d-flex justify-content-center">*/}
+                                {/*<div className="col-md-2 no-padding">*/}
+                                    {/*<img className="img-fluid" src={process.env.PUBLIC_URL + "/img/hospital.png"}/>*/}
+                                {/*</div>*/}
+                                {/*<div className="col-md-6 d-flex align-items-center">*/}
+                                    {/*<span>Hospital</span>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+                            {/*<div className="row industries-item d-flex justify-content-center">*/}
+                                {/*<div className="col-md-2 no-padding">*/}
+                                    {/*<img className="img-fluid" src={process.env.PUBLIC_URL + "/img/advertising.png"}/>*/}
+                                {/*</div>*/}
+                                {/*<div className="col-md-6 d-flex align-items-center">*/}
+                                    {/*<span>Education</span>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>

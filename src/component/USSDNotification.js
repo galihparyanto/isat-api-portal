@@ -21,7 +21,7 @@ class USSDNotification extends Component {
                 <div className="container use-case-detail">
                     <div className="row">
                         <div className="col-md-3 order-md-1 no-padding d-flex align-items-center">
-                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/Mobile USSD Notifications - Large.png"}/>
                         </div>
                         <div className="col-md-9 order-md-2 product-detail-text">
                             <p className="text-header">USSD Push Notification</p>
@@ -47,7 +47,7 @@ class USSDNotification extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>User can track all the order without customer support effort and automatically system will send info to customer while the order has been proceed or has been arrived</span>
+                                        <span>User can track all the order without customer support effort and automatically system will send info to customer while the order has been proceed or has been arrived.</span>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ class USSDNotification extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Notify your customers for important information (Arrivals, Check in, Schedule change, Deposit threshold, Renewal/Upgrade info, etc.) by sending real-time text message</span>
+                                        <span>Notify your customers for important information (Arrivals, Check in, Schedule change, Deposit threshold, Renewal/Upgrade info, etc.) by sending real-time text message.</span>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ class USSDNotification extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Gift your customers for special discount or voucher as USSD Push Notification</span>
+                                        <span>Gift your customers for special discount or voucher as USSD Push Notification.</span>
                                     </div>
                                 </div>
                             </div>

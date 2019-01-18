@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import 'bootstrap';
 import {Link} from 'react-router';
+import ProductBanner from '../global/ProductBanner';
 import ScrollToTopOnMount from '../lib/ScrollToTopOnMount';
 
 class SMS extends Component {
@@ -11,20 +12,14 @@ class SMS extends Component {
     }
 
     render() {
+        let props = {
+            imgSrc: process.env.PUBLIC_URL + "/img/produk-sms-push.png",
+            from: 'product',
+        }
         return (
             <div className="SMS">
                 <ScrollToTopOnMount/>
-                <div className="product-banner">
-                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/produk-sms-push.png"} alt="Product Detail"/>
-                    <div className="product-banner-container">
-                        <p className="product-banner-text-1">Better Experience For Your Customer</p>
-                        <p className="product-banner-text-2">Rapid Idea Execution For Your Business</p>
-                        <div className="product-banner-button">
-                            <button className="btn d-flex justify-content-center banner-button" type="button">Try It</button>
-                            <button className="btn banner-button" type="button">Contact Us</button>
-                        </div>
-                    </div>
-                </div>
+                <ProductBanner {...props} />
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <Link className="navigation-link" to="/products">Products</Link> \ <span className="navigation-detail">SMS Push</span></p>
@@ -59,7 +54,7 @@ class SMS extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Authenticate your user using something your user have by sending message to their mobile phone</span>
+                                        <span>Authenticate your user using something your user have by sending message to their mobile phone.</span>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +71,7 @@ class SMS extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Add security layer prior to transaction by sending confirmation to user’s mobile phone</span>
+                                        <span>Add security layer prior to transaction by sending confirmation to user’s mobile phone.</span>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +88,7 @@ class SMS extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Delight your user by sending virtual discount code and directly save it to your user’s mobile phone number for improving their experience</span>
+                                        <span>Delight your user by sending virtual discount code and directly save it to your user’s mobile phone number for improving their experience.</span>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +105,7 @@ class SMS extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Never let your user miss important information by sending real-time message</span>
+                                        <span>Never let your user miss important information by sending real-time message.</span>
                                     </div>
                                 </div>
                             </div>
@@ -189,11 +184,11 @@ class SMS extends Component {
                             <div className="tab-pane fade show active" id="sms-notification" role="tabpanel" aria-labelledby="sms-notification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS Notifications - Large.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">SMS Notifications are text messages sent in response to events or transactions</p>
+                                            <p className="product-use-case-text">SMS Notifications are text messages sent in response to events or transactions.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/sms-notification"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
@@ -205,11 +200,11 @@ class SMS extends Component {
                             <div className="tab-pane fade" id="mobile-number-verification" role="tabpanel" aria-labelledby="mobile-number-verification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/Mobile Number Verifications - Large.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">Connect each user with their valid mobile number via SMS and use it as a trust anchor for authentication & communication throughout the account lifecycle</p>
+                                            <p className="product-use-case-text">Connect each user with their valid mobile number via SMS and use it as a trust anchor for authentication & communication throughout the account lifecycle.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/sms-authentication"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>

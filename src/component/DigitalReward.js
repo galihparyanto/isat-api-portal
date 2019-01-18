@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import 'bootstrap';
+import ProductBanner from '../global/ProductBanner';
 import {Link} from 'react-router';
 import ScrollToTopOnMount from '../lib/ScrollToTopOnMount';
 
@@ -11,20 +12,14 @@ class DigitalReward extends Component {
     }
 
     render() {
+        let props = {
+            imgSrc: process.env.PUBLIC_URL + "/img/produk-sms-push.png",
+            from: 'product',
+        }
         return (
             <div className="DigitalReward">
                 <ScrollToTopOnMount/>
-                <div className="product-banner">
-                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/produk-sms-push.png"} alt="Product Detail"/>
-                    <div className="product-banner-container">
-                        <p className="product-banner-text-1">Better Experience For Your Customer</p>
-                        <p className="product-banner-text-2">Rapid Idea Execution For Your Business</p>
-                        <div className="product-banner-button">
-                            <button className="btn d-flex justify-content-center banner-button" type="button">Try It</button>
-                            <button className="btn banner-button" type="button">Contact Us</button>
-                        </div>
-                    </div>
-                </div>
+                <ProductBanner {...props} />
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <Link className="navigation-link" to="/products">Products</Link> \ <span className="navigation-detail">Digital Reward</span></p>
@@ -59,7 +54,7 @@ class DigitalReward extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Increase user activation on your service by giving data rewards when user joining your services</span>
+                                        <span>Increase user activation on your service by giving data rewards when user joining your services.</span>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +71,7 @@ class DigitalReward extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Increase join-to-trial conversion and reduce user churn by giving digital rewards when user exploring and using your services</span>
+                                        <span>Increase join-to-trial conversion and reduce user churn by giving digital rewards when user exploring and using your services.</span>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +88,7 @@ class DigitalReward extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Increase user engagement by giving data rewards when user doing eligible transaction on your services</span>
+                                        <span>Increase user engagement by giving data rewards when user doing eligible transaction on your services.</span>
                                     </div>
                                 </div>
                             </div>
@@ -174,11 +169,11 @@ class DigitalReward extends Component {
                             <div className="tab-pane fade show active" id="sms-notification" role="tabpanel" aria-labelledby="sms-notification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/Gift Data - Large.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">Send digital rewards in the form of data quota to your customer as a marketing gimmick to grow your business</p>
+                                            <p className="product-use-case-text">Send digital rewards in the form of data quota to your customer as a marketing gimmick to grow your business.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/gift-data"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>

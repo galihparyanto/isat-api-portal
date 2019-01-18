@@ -17,6 +17,7 @@ class ContactUs extends Component {
                 <div className="product-banner">
                     <img className="terms-img" src={process.env.PUBLIC_URL + "/img/banner-use-cases.png"} alt="Product Detail"/>
                 </div>
+                
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <span className="navigation-detail">Contact Us</span></p>

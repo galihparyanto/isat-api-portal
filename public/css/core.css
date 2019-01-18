@@ -7,6 +7,14 @@
     color: #3F3F3F;
 }
 
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    max-width: 100%;
+}
+
 .header-container {
     height: 75px;
 }
@@ -371,8 +379,8 @@
 .navigation {
     margin-top: 1.5rem;
     font-size: 13px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*padding-left: 7rem;*/
+    /*padding-right: 7rem;*/
 }
 
 .navigation-detail {
@@ -380,13 +388,13 @@
 }
 
 .product-detail-container {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*padding-left: 7rem;*/
+    /*padding-right: 7rem;*/
 }
 
 .product-detail {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*padding-left: 7rem;*/
+    /*padding-right: 7rem;*/
     margin-bottom: 2rem;
     margin-top: 0;
 }
@@ -490,8 +498,8 @@
 
 .step-growth-container {
     margin-top: 2rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    /*padding-left: 7rem;*/
+    /*padding-right: 7rem;*/
 }
 
 .product-item-title {
@@ -511,13 +519,13 @@
 }
 
 .use-case-detail {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*padding-left: 7rem;*/
+    /*padding-right: 7rem;*/
 }
 
 .use-case-detail-img {
     width: 60%;
-    height: 80%;
+    height: 100%;
 }
 
 .industries-item {
@@ -705,14 +713,14 @@
 }
 
 .terms-container {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*padding-left: 3rem;*/
+    /*padding-right: 3rem;*/
     margin-bottom: 2rem;
 }
 
 .contact-us-container {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*padding-left: 3rem;*/
+    /*padding-right: 3rem;*/
     margin-bottom: 2rem;
 }
 

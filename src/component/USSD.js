@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import 'bootstrap';
 import {Link} from 'react-router';
+import ProductBanner from '../global/ProductBanner';
 import ScrollToTopOnMount from '../lib/ScrollToTopOnMount';
 
 class USSD extends Component {
@@ -11,20 +12,15 @@ class USSD extends Component {
     }
 
     render() {
+        let props = {
+            imgSrc: process.env.PUBLIC_URL + "/img/produk-sms-push.png",
+            from: 'product',
+        }
         return (
             <div className="USSD">
                 <ScrollToTopOnMount/>
-                <div className="product-banner">
-                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/produk-sms-push.png"} alt="Product Detail"/>
-                    <div className="product-banner-container">
-                        <p className="product-banner-text-1">Better Experience For Your Customer</p>
-                        <p className="product-banner-text-2">Rapid Idea Execution For Your Business</p>
-                        <div className="product-banner-button">
-                            <button className="btn d-flex justify-content-center banner-button" type="button">Try It</button>
-                            <button className="btn banner-button" type="button">Contact Us</button>
-                        </div>
-                    </div>
-                </div>
+                <ProductBanner {...props} />
+                
 
                 <div className="container navigation">
                     <p><Link className="navigation-link" to="/">Home</Link> \ <Link className="navigation-link" to="/products">Products</Link> \ <span className="navigation-detail">USSD Push</span></p>
@@ -59,7 +55,7 @@ class USSD extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone</span>
+                                        <span>Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone.</span>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +72,7 @@ class USSD extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Add security layer prior to transaction and ensure your user attention of it by sending pop-up confirmation to their mobile phone</span>
+                                        <span>Add security layer prior to transaction and ensure your user attention of it by sending pop-up confirmation to their mobile phone.</span>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +89,7 @@ class USSD extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Never let your user miss important information by sending real-time pop-up message</span>
+                                        <span>Never let your user miss important information by sending real-time pop-up message.</span>
                                     </div>
                                 </div>
                             </div>
@@ -192,11 +188,11 @@ class USSD extends Component {
                             <div className="tab-pane fade show active" id="sms-notification" role="tabpanel" aria-labelledby="sms-notification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/Mobile USSD Notifications - Large.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">The notification is pushed in real time to the cell phone and “pop up” automatically, without the user having to dial the number</p>
+                                            <p className="product-use-case-text">The notification is pushed in real time to the cell phone and “pop up” automatically, without the user having to dial the number.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/ussd-notification"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
@@ -208,11 +204,11 @@ class USSD extends Component {
                             <div className="tab-pane fade" id="mobile-number-verification" role="tabpanel" aria-labelledby="mobile-number-verification-tab">
                                 <div className="row product-tab-content align-items-center">
                                     <div className="col-md-3 order-md-1">
-                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                                        <img className="img-fluid product-tab-img" src={process.env.PUBLIC_URL + "/img/Mobile USSD Notifications - Large.png"}/>
                                     </div>
                                     <div className="col-md-9 order-md-2 product-use-case-detail">
                                         <div className="row">
-                                            <p className="product-use-case-text">Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone</p>
+                                            <p className="product-use-case-text">Improve your user experience when authenticate to your service by sending real-time pop up message on their mobile phone.</p>
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/ussd-authentication"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>

@@ -21,7 +21,7 @@ class USSDAuthentication extends Component {
                 <div className="container use-case-detail">
                     <div className="row">
                         <div className="col-md-3 order-md-1 no-padding d-flex align-items-center">
-                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/SMS%20Notification%20-%20Large.png"}/>
+                            <img className="use-case-detail-img" src={process.env.PUBLIC_URL + "/img/Mobile USSD Notifications - Large.png"}/>
                         </div>
                         <div className="col-md-9 order-md-2 product-detail-text">
                             <p className="text-header">USSD Push Authentication</p>
@@ -47,7 +47,7 @@ class USSDAuthentication extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Secure a digital transaction (digital service login, payment, etc.) by delivering a one-time, unique 6-digit code (OTP) via USSD push notification</span>
+                                        <span>Secure a digital transaction (digital service login, payment, etc.) by delivering a one-time, unique 6-digit code (OTP) via USSD push notification.</span>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ class USSDAuthentication extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Use a second channel (out-of-band authentication) to further secure access to a sensitive IT system</span>
+                                        <span>Use a second channel (out-of-band authentication) to further secure access to a sensitive IT system.</span>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ class USSDAuthentication extends Component {
                                     <div className="col-md-1 arrow-icon no-padding">
                                     </div>
                                     <div className="col-md-11 no-padding">
-                                        <span>Use a second channel (out-of-band authentication) to authorize a sensitive digital transaction (funds transfer, online purchase, etc.)</span>
+                                        <span>Use a second channel (out-of-band authentication) to authorize a sensitive digital transaction (funds transfer, online purchase, etc.).</span>
                                     </div>
                                 </div>
                             </div>
