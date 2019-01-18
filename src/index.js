@@ -4,6 +4,9 @@ import './index.css';
 import App from './component/App';
 import Home from './component/Home';
 import Documentation from './component/Documentation/Documentation';
+import DigitalRewardDocs from './component/Documentation/DigitalReward';
+import UssdPush from './component/Documentation/UssdPush';
+import SmsDocs from './component/Documentation/Sms';
 import Products from './component/Products';
 import UseCases from './component/UseCases';
 import SMS from './component/SMS';
@@ -33,6 +36,9 @@ ReactDOM.render((
                 <Route path="/terms" component={Terms}/>
                 <Route path="/contact-us" component={ContactUs}/>
                 <Route path="/documentation" component={Documentation}/>
+                <Route path="/documentation/digital-reward" component={DigitalRewardDocs}/>
+                <Route path="/documentation/ussd" component={UssdPush}/>
+                <Route path="/documentation/sms" component={SmsDocs}/>
                 <Route path="/products" component={Products}/>
                 <Route path="/products/sms" component={SMS}/>
                 <Route path="/products/ussd" component={USSD}/>
@@ -47,7 +53,7 @@ ReactDOM.render((
                 <Route path="/use-cases/ussd-authentication" component={USSDAuthentication}/>
                 <Route path="/use-cases/gift-data" component={GiftData}/>
                 <Route path="/use-cases/vas-product-subscription" component={VASProductSubscription}/>
-                <Route path="*" component={NoMatch}/>
+                {/* <Route path="*" component={NoMatch} /> */}
             </Route>
         </ScrollToTop>
     </Router>
