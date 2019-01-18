@@ -1,6 +1,11 @@
 
 a {
     cursor: pointer;
+    color: #3F3F3F;
+}
+
+code {
+    color: #424242;
 }
 
 .hoverClass {
@@ -22,6 +27,25 @@ a {
     background: url('./img/icon_folder.svg') no-repeat center;
 }
 
+.icon_sms {
+    width: 97px;
+    height: 70px;
+    background: url('./img/sms_push.png') no-repeat center;
+    background-size: cover;
+}
+
+.icon_ussd {
+    width: 40px;
+    height: 60px;
+    background: url('./img/ussd_push.png') no-repeat center;
+}
+
+.icon_gift {
+    width: 57px;
+    height: 60px;
+    background: url('./img/gift_data.png') no-repeat center;
+}
+
 .containerFlex {
     position: relative;
     display:flex;
@@ -35,9 +59,9 @@ a {
 
 
 .sideBar {
-    width: 30%;
+    width: 20%;
     max-width: 428px;
-    padding: 25px 14px;
+    padding: 25px 10px;
     border-right: 2px solid #C1211E;
     background: #FAFAFA;
     flex-basis: 428px;
@@ -107,31 +131,39 @@ a {
     order: 2;
     padding: 20px;
     position: relative;
-    left: 30%;
+    left: 20%;
 }
 
 .content__title {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
 }
 
-.content__main {
-    margin: 40px 0;
+.content__subtitle--title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.content__text--border {
+    border: 1px solid #4e4e4e;
+    padding: 5px;
 }
 
 .content__subtitle {
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .content__text {
     line-height: 23px;
     font-size: 14px;
+    margin-bottom: 20px;
     font-family: "Noto Sans";
 }
 
 .content__table {
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
 }
 
 .content__table table {
@@ -147,7 +179,44 @@ a {
 .content__table table th,
 .content__table table td {
     border: 1px solid #979797;
+    padding: 10px;
+    text-align: left
 }
+
+.containerBox {
+    width: 100%;
+    margin: 10% auto;
+}
+
+.box {
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 8px 11px 0px rgba(150, 150, 150, 0.13);
+    width: 30%;
+    text-align: center;
+    padding: 34px 20px;
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.box__title {
+    margin: 10px 0 0 -15px;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.box:hover {
+    box-shadow: 0px 8px 11px 0px rgba(0,0,0,0.13);
+}
+
+.box:hover .box__title {
+    opacity: 1;
+}
+
+
 
 
 /*=========*/
