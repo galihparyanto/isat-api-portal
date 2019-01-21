@@ -177,7 +177,7 @@ class DigitalReward extends Component {
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/gift-data"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
-                                            <Link><button type="button" className="btn product-use-case-button">Documentation</button></Link>
+                                            <Link to="/documentation/digital-reward"><button type="button" className="btn product-use-case-button">Documentation</button></Link>
                                         </div>
                                     </div>
                                 </div>
