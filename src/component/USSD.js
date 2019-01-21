@@ -196,7 +196,7 @@ class USSD extends Component {
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/ussd-notification"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
-                                            <Link><button type="button" className="btn product-use-case-button">Documentation</button></Link>
+                                            <Link to="/documentation/ussd"><button type="button" className="btn product-use-case-button">Documentation</button></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@ class USSD extends Component {
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/ussd-authentication"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
-                                            <Link><button type="button" className="btn product-use-case-button">Documentation</button></Link>
+                                            <Link to="/documentation/ussd"><button type="button" className="btn product-use-case-button">Documentation</button></Link>
                                         </div>
                                     </div>
                                 </div>

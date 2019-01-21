@@ -192,7 +192,7 @@ class SMS extends Component {
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/sms-notification"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
-                                            <Link><button type="button" className="btn product-use-case-button">Documentation</button></Link>
+                                            <Link to="/documentation/sms"><button type="button" className="btn product-use-case-button">Documentation</button></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@ class SMS extends Component {
                                         </div>
                                         <div className="row">
                                             <Link to="/use-cases/sms-authentication"><button type="button" className="btn button-divider product-use-case-button">Detail</button></Link>
-                                            <Link><button type="button" className="btn product-use-case-button">Documentation</button></Link>
+                                            <Link to="/documentation/sms"><button type="button" className="btn product-use-case-button">Documentation</button></Link>
                                         </div>
                                     </div>
                                 </div>
