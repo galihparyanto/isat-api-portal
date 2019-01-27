@@ -157,9 +157,9 @@ code {
 
 .content__text {
     line-height: 23px;
-    font-size: 14px;
+    font-size: 1rem;
     margin-bottom: 20px;
-    font-family: "Noto Sans";
+    /*font-family: "Noto Sans";*/
 }
 
 .content__table {

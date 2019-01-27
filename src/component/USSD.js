@@ -33,7 +33,7 @@ class USSD extends Component {
                             <p>The notification is pushed in real time to the cell phone and “pop up” automatically, without the user having to dial the number. Focus your customer attention to your message by delivering it using our USSD real-time pop-up message.</p>
                         </div>
                         <div className="col-md-3 order-md-2 d-flex justify-content-center">
-                            <img className="product-detail-img" src={process.env.PUBLIC_URL + "/img/sms-detail.png"}/>
+                            <img className="product-detail-img" src={process.env.PUBLIC_URL + "/img/USSD-Push.png"}/>
                         </div>
                     </div>
                 </div>

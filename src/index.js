@@ -27,9 +27,10 @@ import ContactUs from './component/ContactUs';
 import * as serviceWorker from './lib/serviceWorker';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import ScrollToTop from './lib/ScrollToTop';
+import { useBasename } from 'history';
 
 ReactDOM.render((
-    <Router history={browserHistory}>
+    <Router history={ useBasename(() => browserHistory)({ basename: '/api758' }) }>
         <ScrollToTop>
             <Route path="/" component={App}>
                 <IndexRoute component={Home}/>
@@ -43,7 +44,7 @@ ReactDOM.render((
                 <Route path="/products/sms" component={SMS}/>
                 <Route path="/products/ussd" component={USSD}/>
                 <Route path="/products/digital-reward" component={DigitalReward}/>
-                <Route path="/products/vas-catalog" component={VASCatalog}/>
+                {/*<Route path="/products/vas-catalog" component={VASCatalog}/>*/}
                 <Route path="/use-cases" component={UseCases}/>
                 <Route path="/use-cases/sms-notification" component={SMSNotification}/>
                 <Route path="/use-cases/sms-authentication" component={SMSAuthentication}/>
@@ -52,7 +53,7 @@ ReactDOM.render((
                 <Route path="/use-cases/ussd-notification" component={USSDNotification}/>
                 <Route path="/use-cases/ussd-authentication" component={USSDAuthentication}/>
                 <Route path="/use-cases/gift-data" component={GiftData}/>
-                <Route path="/use-cases/vas-product-subscription" component={VASProductSubscription}/>
+                {/*<Route path="/use-cases/vas-product-subscription" component={VASProductSubscription}/>*/}
                 {/* <Route path="*" component={NoMatch} /> */}
             </Route>
         </ScrollToTop>
