@@ -2,8 +2,8 @@
   "name": "isat-api-portal-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/api758",
   "proxy": "http://localhost:3000",
+  "homepage": "/api758",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
