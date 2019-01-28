@@ -74,16 +74,16 @@ class Products extends Component {
                             <Link to="/products/digital-reward"><button type="button" className="btn product-detail-button">See Detail</button></Link>
                         </div>
                     </div>
-                    <div className="row products-item">
-                        <div className="col-md-4 products-item-img no-padding">
-                            <img className="img-fluid products-item-img-panel" src={process.env.PUBLIC_URL + "/img/VAS-catalog.jpg"} />
-                        </div>
-                        <div className="col-md-8 product-item-detail">
-                            <p className="product-item-title">VAS Catalog</p>
-                            <p>VAS API catalog provide catalog of Indosat VAS product including its subscription management.</p>
-                            <Link to="/products/vas-catalog"><button type="button" className="btn product-detail-button">See Detail</button></Link>
-                        </div>
-                    </div>
+                    {/*<div className="row products-item">*/}
+                        {/*<div className="col-md-4 products-item-img no-padding">*/}
+                            {/*<img className="img-fluid products-item-img-panel" src={process.env.PUBLIC_URL + "/img/VAS-catalog.jpg"} />*/}
+                        {/*</div>*/}
+                        {/*<div className="col-md-8 product-item-detail">*/}
+                            {/*<p className="product-item-title">VAS Catalog</p>*/}
+                            {/*<p>VAS API catalog provide catalog of Indosat VAS product including its subscription management.</p>*/}
+                            {/*<Link to="/products/vas-catalog"><button type="button" className="btn product-detail-button">See Detail</button></Link>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         );

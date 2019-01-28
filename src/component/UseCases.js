@@ -114,22 +114,22 @@ class UseCases extends Component {
                                 <Link to="/use-cases/gift-data"><span className="detail-text-link">Detail >></span></Link>
                             </div>
                         </div>
-                        <div className="col-md-3 use-case-item">
-                            <div className="row use-case-title-panel">
-                                <div className="col-md-3  d-flex align-items-center">
-                                    <img className="img-fluid" src={process.env.PUBLIC_URL + "/img/VAS.png"} />
-                                </div>
-                                <div className="col-md-9 d-flex align-items-center">
-                                    <Link to="/use-cases/vas-product-subscription"><span className="use-case-title">VAS Product Subscription</span></Link>
-                                </div>
-                            </div>
-                            <div className="row use-case-description-panel">
-                                <span className="use-case-description">VAS API catalog provide catalog of Indosat VAS product including its subscription management.</span>
-                            </div>
-                            <div className="row detail-link-panel">
-                                <Link to="/use-cases/vas-product-subscription"><span className="detail-text-link">Detail >></span></Link>
-                            </div>
-                        </div>
+                        {/*<div className="col-md-3 use-case-item">*/}
+                            {/*<div className="row use-case-title-panel">*/}
+                                {/*<div className="col-md-3  d-flex align-items-center">*/}
+                                    {/*<img className="img-fluid" src={process.env.PUBLIC_URL + "/img/VAS.png"} />*/}
+                                {/*</div>*/}
+                                {/*<div className="col-md-9 d-flex align-items-center">*/}
+                                    {/*<Link to="/use-cases/vas-product-subscription"><span className="use-case-title">VAS Product Subscription</span></Link>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+                            {/*<div className="row use-case-description-panel">*/}
+                                {/*<span className="use-case-description">VAS API catalog provide catalog of Indosat VAS product including its subscription management.</span>*/}
+                            {/*</div>*/}
+                            {/*<div className="row detail-link-panel">*/}
+                                {/*<Link to="/use-cases/vas-product-subscription"><span className="detail-text-link">Detail >></span></Link>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
                     </div>
                     {/*<div className="row">*/}
                         {/*<div className="col-md-3 use-case-item">*/}

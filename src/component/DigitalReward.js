@@ -32,7 +32,7 @@ class DigitalReward extends Component {
                             <p>Digital Reward helps your customers to try new apps or event with data rewards, while giving opportunities for Carriers to expand new channel & developers to engage more with their users. Send digital rewards in the form of data quota to your customer as a marketing gimmick to grow your business.</p>
                         </div>
                         <div className="col-md-3 order-md-2 d-flex justify-content-center">
-                            <img className="product-detail-img" src={process.env.PUBLIC_URL + "/img/sms-detail.png"}/>
+                            <img className="product-detail-img" src={process.env.PUBLIC_URL + "/img/Digital-Reward.jpg"}/>
                         </div>
                     </div>
                 </div>
